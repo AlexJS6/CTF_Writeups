@@ -6,12 +6,12 @@ It is on tryhackme, link: https://tryhackme.com/room/picklerick
 ---  
 <br>  
 
-![show](image_1.png)   
+![show](assets/image_1.png)   
 
 
 ## I first ran nmap, nikto and gobuster:   
 
-![nikto,gobuster and nmap](image_2.png)
+![nikto,gobuster and nmap](assets/image_2.png)
 
 We can find:
 /login.php (200)
@@ -24,42 +24,42 @@ and in 300:
 After the basic enumeration, I looked a bit in the developer tools and,
 I found something interesting in the source code:  
 
-![username](image_3.png)   
+![username](assets/image_3.png)   
 
 I then took a look at robots.txt:
 
-![password](image_4.png)   
+![password](assets/image_4.png)   
 
 We can then try it in the login page, and .... It works!  
 
-![login](image_5.png)  
+![login](assets/image_5.png)  
 
-![portal.php](image_6.png) 
+![portal.php](assets/image_6.png) 
 
 In the writable field you can then write commands, for example "whoami":  
 
-![whoami](image_7.png)  
+![whoami](assets/image_7.png)  
 
 After a ls -al command you can see "Sup3rS3cretPickl3Ingred.txt", but you can't cat it...   
 
-![cat](image_8.png)  
+![cat](assets/image_8.png)  
 
 So I tried to less it, and it works!
 
-![flag1](image_9.png) 
+![flag1](assets/image_9.png) 
 
 You can actually already find the second flag 
 
-![flag2](image_10.png)
+![flag2](assets/image_10.png)
 
 BUT when using the command "sudo -l" to see what command we can run, we see something interesting:
 
-![sudo](image_11.png)
+![sudo](assets/image_11.png)
 
 We can run all commands with no password.
 SO, we can run "sudo ls -al /root" And there it is!
 
-![flag3](image_12.png)
+![flag3](assets/image_12.png)
 
 So with a simple "sudo less /root/3rd.txt, We get the 3rd and last flag!
 
@@ -79,7 +79,7 @@ From: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodolog
   
 You can then work directly from your terminal!
 
-![shell](image_13.png)  
+![shell](assets/image_13.png)  
 
 ---  
 
