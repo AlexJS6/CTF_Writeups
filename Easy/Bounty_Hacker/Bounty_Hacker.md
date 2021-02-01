@@ -1,4 +1,4 @@
-# Bounty Hunter
+# Bounty Hacker
 ## This is a pretty simple CTF:  
 Name: Alexander Spiesberger  
 Date: 1/02/2021  
