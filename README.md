@@ -9,4 +9,4 @@ This README is in process, but shows my walkthrough through different boxes, mai
 ---
 
 If you need a hint for other CTF's you can contact me here: alex.spiesberger@gmail.com   
-I have done many more CTF's and have a less detailed walkthoughs in my folders, so don't be shy.
+I have done many more CTF's and have a less detailed walkthoughs without screenshots in my folders, so don't be shy.
