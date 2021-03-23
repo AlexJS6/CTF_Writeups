@@ -4,7 +4,7 @@
 
 ---
 
-This README is in process, but shows my walkthrough through different boxes, mainly easy ones and from TryHackMe for now.
+This README is in process, but shows my walkthrough through different boxes, mainly easy/medium ones and from TryHackMe for now.
 
 ---
 
