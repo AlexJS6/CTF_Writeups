@@ -1,6 +1,6 @@
 # CTF_Writeups
 
-## Pleased that you take your time to look at my writeups
+## Thanks you for taking a look at my writeups.
 
 ---
 
